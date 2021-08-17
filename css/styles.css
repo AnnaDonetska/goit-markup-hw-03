@@ -1,0 +1,211 @@
+:root {
+  --firs-logo-color: #2196f3;
+  --second-logo-color-header: #000000;
+  --second-logo-color-footer: #ffffff;
+  --navigation-color-first: #212121;
+  --navigation-color-act: #2196f3;
+  --text-title-color: #212121;
+  --hero-txt-color: #ffffff;
+  --hero-footer-background: #2f303a;
+  --text-color-p: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+.logo-header {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--second-logo-color);
+}
+.half-logo-text {
+  color: var(--firs-logo-color);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--navigation-color-first);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--navigation-color-act);
+}
+.header-contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--navigation-color-act);
+}
+/* hero */
+.hero {
+  background-color: var(--hero-footer-background);
+  color: var(--hero-txt-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--hero-txt-color);
+  background-color: var(--navigation-color-act);
+}
+.hero-btn:hover,
+.hero-btn:hover {
+  background-color: var(--navigation-color-act);
+}
+/* features */
+.features-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-title-color);
+}
+.features-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-p);
+}
+.activity-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+.team-title-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+.team-title-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--text-color-p);
+}
+.footer-section {
+  background-color: var(--hero-footer-background);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--hero-txt-color);
+}
+.half-logo-text {
+  color: var(--firs-logo-color);
+}
+.footer-adress {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-txt-color);
+}
+.footer-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--navigation-color-act);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--navigation-color-act);
+}
+/* portfolio page2*/
+
+.filter-btn {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--hero-txt-color);
+  background-color: var(--navigation-color-act);
+}
+.prodjects-boxes-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-title-color);
+}
+.prodjects-boxes-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color-p);
+}
